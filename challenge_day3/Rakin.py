@@ -16,4 +16,7 @@ def act2(characters):
 
 
 def act3(characters):
-    return f" {characters[3]} was taken away to go to the hospital. {characters[3]} came out the hospital and asked for a knife"
+    return (
+        f"{characters[3]} was taken to the hospital while {characters[0]}, "
+        f"{characters[1]}, and {characters[2]} waited outside for news."
+    )
