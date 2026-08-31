@@ -6,7 +6,8 @@ def get_character():
     return "Hans"
 
 def act1(characters):
-    f"At the edge of the bustling night market, {characters[3]} spotted {characters[0]} haggling over an eerie, glowing lantern, while {characters[1]} and {characters[2]} attempted to slip away with the stolen artifact."
+    return f"At the edge of the bustling night market, {characters[3]} spotted {characters[0]} haggling over an eerie, glowing lantern, while {characters[1]} and {characters[2]} attempted to slip away with the stolen artifact."
+
 def act2(characters):
     return (
         f"{characters[0]} noticed the lantern was glowing brighter, while "
