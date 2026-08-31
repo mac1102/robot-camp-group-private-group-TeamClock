@@ -11,7 +11,7 @@ def act1(characters):
 def act2(characters):
     return (
         f"{characters[0]} noticed the lantern was glowing brighter, while "
-        f"{characters[3]} chased after {characters[1]} and {characters[2]}, who was runing toward the ___."
+        f"{characters[3]} chased after {characters[1]} and {characters[2]}, who was runing toward the river."
     )
 
 def act3(characters):
