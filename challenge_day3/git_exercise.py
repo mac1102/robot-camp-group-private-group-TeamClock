@@ -28,10 +28,23 @@ def print_story():
         Rongze.get_character()
     ]
 
+    # Act 1
     print(an.act1(characters))
-    print(an.act2(characters))
-    print(an.act3(characters))
+    print(Rakin.act1(characters))
+    print(yutong.act1(characters))
+    print(Rongze.act1(characters))
 
+    # Act 2
+    print(an.act2(characters))
+    print(Rakin.act2(characters))
+    print(yutong.act2(characters))
+    print(Rongze.act2(characters))
+
+    # Act 3
+    print(an.act3(characters))
+    print(Rakin.act3(characters))
+    print(yutong.act3(characters))
+    print(Rongze.act3(characters))
 
 introduce_team()
 introduce_characters()

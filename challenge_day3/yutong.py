@@ -5,7 +5,7 @@ def get_character():
     return 'Michael Jackson'
 
 def act1(characters):
-    return f"{characters[0]} and {characters[1]} were stood on the stage for their firt perfprmance"
+    return f"{characters[0]} and {characters[1]} were stood on the stage for their first performance"
 
 def act2(characters):
     return (
@@ -14,5 +14,5 @@ def act2(characters):
     )
 
 def act3(characters):
-    return f"after the performence ended, {characters[3]} came to them and asked for a signature, he said with his tears down: ???"
+    return f"after the performence ended, {characters[3]} came to them and asked for a signature, he said with his tears down: Haha"
 
