@@ -1,8 +1,6 @@
 def get_name():
     return "Rakin"
 
-print(get_name())
-
 def get_character():
     return 'Connor McGregor'
 
