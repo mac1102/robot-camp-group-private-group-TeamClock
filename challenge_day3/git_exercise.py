@@ -5,6 +5,7 @@ import Rongze
 
 
 def introduce_team():
+    print(an.get_team_intro())
     print(an.get_name())
     print(Rakin.get_name())
     print(yutong.get_name())
