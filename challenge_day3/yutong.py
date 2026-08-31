@@ -1,4 +1,6 @@
 def get_name():
     return "Yutong"
 
-print(get_name())
+def get_character():
+    return 'Michael Jackson'
+
