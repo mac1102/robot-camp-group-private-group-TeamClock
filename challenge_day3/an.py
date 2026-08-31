@@ -1,6 +1,8 @@
 def get_name():
     return "an"
 
+def get_team_intro():
+    return "This is Team Clock. We are:"
 
 def get_character():
     return 'Ben Dover'
