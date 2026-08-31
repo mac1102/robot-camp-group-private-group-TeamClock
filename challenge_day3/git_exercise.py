@@ -5,7 +5,7 @@ import Rongze
 
 
 def introduce_team():
-    print("This is Team YourTeamNameHere. We are:")
+    print("This is Team Clock. We are:")
     print(an.get_name())
     print(Rakin.get_name())
     print(yutong.get_name())
