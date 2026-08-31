@@ -11,5 +11,5 @@ def act2(characters):
     return f"the huge fan of the two, {characters[3]}, were sittin in the stands, cherrrring for the two, and ???"
 
 def act3(characters):
-    return f"after the performence ended, {characters[3]} came to them and asked for a signature, he said with his tears down: ???"
+    return f"after the performance ended, {characters[3]} came to them and asked for a signature, he said with his tears down:Amazing!"
 
