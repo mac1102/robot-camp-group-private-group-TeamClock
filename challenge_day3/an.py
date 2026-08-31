@@ -11,7 +11,7 @@ def get_character():
     return 'Ben Dover'
 
 def act1(characters):
-    return f"{characters[0]} and {characters[1]} walkd into the forest while {characters[2]} and {characters[3]} waited near the ???."
+    return f"{characters[0]} and {characters[1]} walked into the forest while {characters[2]} and {characters[3]} waited near the big tree in the central area in the forest."
 
 def act2(characters):
     return (
