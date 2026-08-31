@@ -12,4 +12,11 @@ def introduce_team():
     print(Rongze.get_name())
 
 
+def introduce_characters():
+    print(an.get_character())
+    print(Rakin.get_character())
+    print(yutong.get_character())
+    print(Rongze.get_character())
+
 introduce_team()
+introduce_characters()
