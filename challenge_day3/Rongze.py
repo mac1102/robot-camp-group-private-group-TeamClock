@@ -16,5 +16,5 @@ def act2(characters):
 def act3(characters):
     return (
         f"In the end, {characters[0]}, {characters[1]}, {characters[2]}, and {characters[3]} "
-        f"gathered around the lantern and discoverd its light was actually a hidden ___."
+        f"gathered around the lantern and discoverd its light was actually a hidden cave."
     )
