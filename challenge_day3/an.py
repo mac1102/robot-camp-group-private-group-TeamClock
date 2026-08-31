@@ -15,8 +15,8 @@ def act1(characters):
 
 def act2(characters):
     return (
-        f"{characters[2]} notice a strange light behind the trees, while "
-        f"{characters[0]}, {characters[1]}, and {characters[3]} tried to find the ???."
+        f"{characters[2]} noticed a strange light behind the trees, while "
+        f"{characters[0]}, {characters[1]}, and {characters[3]} tried to find the scource."
     )
 
 
