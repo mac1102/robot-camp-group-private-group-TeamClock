@@ -13,4 +13,3 @@ def act2(characters):
 
 def act3(characters):
     return f" {characters[3]} was taken away to go to the hospitol. {characters[3]} came out the hospital and asked for a ?????"
-g
