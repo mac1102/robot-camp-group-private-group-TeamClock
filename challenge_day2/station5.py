@@ -1,8 +1,14 @@
+import pandas as pd
+
+
 def solution_station_5(name):
+    df = pd.read_csv('learningteams.csv')
 
-    total = 0
-    for Uniformst in name.lower():
-        if Uniformst in "uniformst":
-            total += 1
+    number = df.loc[df['voornaam'] == name, 'lt']
+    return number.values[0]
 
-    return total
+
+    
+
+
+
