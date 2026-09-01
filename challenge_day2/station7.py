@@ -6,10 +6,7 @@ def solution_station_7(expression):
         "d": 7,
         "e": 0.5
     }
+    expression = expression.replace("^", "**")
     result = eval(expression, {"__builtins__": {}}, variables)
+
     return float(result)
-
-
-print((solution_station_7("b*c + d")))  
-print((solution_station_7("d * e")))    
-print((solution_station_7("d / c")))    
