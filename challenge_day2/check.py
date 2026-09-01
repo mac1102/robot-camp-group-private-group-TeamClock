@@ -6,9 +6,12 @@ from station5 import solution_station_5
 from station6 import solution_station_6
 from station7 import solution_station_7
 
-print(solution_station_1(7), type(solution_station_1(7)))
-print(solution_station_2("2024-03-15"))
-print(solution_station_3(9), solution_station_4(13))
-print(solution_station_5("Nataly"), type(solution_station_5("Nataly")))
-print(solution_station_6(2), type(solution_station_6(2)))
-print(solution_station_7("b*c + d"), type(solution_station_7("b*c + d")))
+assert isinstance(solution_station_1(7), int)
+assert isinstance(solution_station_2("2024-03-15"), str)
+assert isinstance(solution_station_3(9), bool)
+assert isinstance(solution_station_4(13), bool)
+assert isinstance(solution_station_5("Nataly"), int)
+assert isinstance(solution_station_6(2.5), float)
+assert isinstance(solution_station_7("b*c + d"), float)
+
+print("alle types kloppen")
