@@ -1,4 +1,4 @@
-import pandas as pd
+from pandas import pd
 
 
 def solution_station_5(name):
@@ -7,8 +7,6 @@ def solution_station_5(name):
     number = df.loc[df['voornaam'] == name, 'lt']
     return number.values[0]
 
-
-    
 
 
 
