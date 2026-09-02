@@ -11,7 +11,6 @@ def normalise_name(name):
         if not unicodedata.combining(character)
     )
 
-
 with open(Path(__file__).parent / "Learningteams.csv", encoding="utf-8", newline="") as file:
     LEERTEAMS = {
         normalise_name(row["voornaam"]): int(row["lt"])
