@@ -2,6 +2,7 @@ import an
 import Rakin
 import yutong
 import Rongze
+import yujie
 
 
 def introduce_team():
@@ -10,6 +11,7 @@ def introduce_team():
     print(Rakin.get_name())
     print(yutong.get_name())
     print(Rongze.get_name())
+    print(yujie.get_name())
 
 
 def introduce_characters():
